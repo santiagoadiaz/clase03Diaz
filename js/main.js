@@ -1,9 +1,27 @@
-// inscripcion de equipo de futbol
+let total = 0
 
-for (let i = 1; i < 12; i++) {
+function producto1() {
+    valor = 10
+    total = total + 10
+    console.log('$' + valor)
+    console.log('Compra total $ ' + total)
+}
 
-    let ingresarNombre = prompt("Ingresar nombre del jugador");
+function producto2() {
+    valor = 20
+    total = total + 20
+    console.log('$' + valor)
+    console.log('Compra total $ ' + total)
+}
 
-    alert(" Jugador  N° " + i + " Nombre: " + ingresarNombre);
-    console.log(i + ingresarNombre);
+function producto3() {
+    valor = 40
+    total = total + 40
+    console.log('$' + valor)
+    console.log('Compra total $ ' + total)
+}
+
+function vaciar() {
+    total = 0
+    console.log('Compra total $ ' + total)
 }
